@@ -3,9 +3,14 @@
 public void paleta() {
   
   
-  stroke(255, 0, 0);
-  fill(255, 0, 0);
-  rect((800/2) + ubicacionX, 700, ancho, alto);
+  stroke(255, colorCero, colorCero);
+  fill(255, colorCero, colorCero);
+  rect(400 + ubicacionX, 700, ancho, alto);
+  
+  //System.out.print("Combinado: ");
+  //System.out.println(400 + ubicacionX);
+  //System.out.print("ubicacionX: ");
+  //System.out.println(ubicacionX);
 
   if (keyPressed && key == CODED) {
 
